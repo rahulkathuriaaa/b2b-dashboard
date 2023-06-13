@@ -56,7 +56,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="12,361"
-            subtitle="Emails Sent"
+            subtitle="Invites Sent"
             progress="0.75"
             increase="+14%"
             icon={
@@ -94,7 +94,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="32,441"
-            subtitle="New Clients"
+            subtitle="New Enteries"
             progress="0.30"
             increase="+5%"
             icon={
@@ -180,7 +180,7 @@ const Dashboard = () => {
             p="15px"
           >
             <Typography color={colors.grey[100]} variant="h5" fontWeight="600">
-              Recent Transactions
+              Recent Enteries
             </Typography>
           </Box>
           {mockTransactions.map((transaction, i) => (
